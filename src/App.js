@@ -46,7 +46,7 @@ class App extends React.Component {
     })
   }
   handleDecreaseQuantity = (product) => {
-    console.log('Heyy please inc the qty of ', product);
+    console.log('Heyy! please inc the qty of  ', product);
     const { products } = this.state;
     const index = products.indexOf(product);
 
